@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaryanKhClasses/ChatApp.git"
+  },
+  "keywords": [],
+  "author": "AaryanKh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AaryanKhClasses/ChatApp/issues"
+  },
+  "homepage": "https://github.com/AaryanKhClasses/ChatApp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}

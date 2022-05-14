@@ -1,0 +1,38 @@
+body {
+    background-color: #333;
+}
+
+footer {
+    background-color: #4a4a4a;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#login-container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4a4a4a;
+    color: #c4c4c4;
+    padding: 5rem;
+}
+
+#password { margin-left: 3px; }
+
+.button {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5rem;
+}
+
+.input {
+    padding: 0.4em;
+    margin-bottom: 5px;
+}
+
+.center { text-align: center; }
